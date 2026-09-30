@@ -1,0 +1,89 @@
+/* Executive Navy Hero Section */
+.hero {
+  background: linear-gradient(135deg, #0A1A2F, #12375A);
+  color: #ffffff;
+  padding: 100px 20px 80px; /* restored spacing */
+  text-align: center;
+}
+
+/* Center and widen hero content */
+.hero-content {
+  max-width: 900px; /* restored width */
+  margin: 0 auto;
+}
+
+/* Restore large executive name */
+.hero h1 {
+  font-size: 3rem; /* restored size */
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+/* Restore tagline spacing */
+.tagline {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+/* Restore summary spacing and width */
+.summary {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto 2rem;
+}
+
+/* Restore executive gold button */
+.btn-primary {
+  display: inline-block;
+  padding: 0.8rem 1.8rem;
+  border-radius: 999px;
+  background: #f0b429; /* executive gold */
+  color: #163653;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Button hover effect */
+.btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+/* Executive Navbar */
+.navbar {
+  background: #ffffff;
+  border-bottom: 1px solid #d0d4dd;
+  padding: 12px 0;
+}
+
+/* Remove bullets and align links horizontally */
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 24px; /* space between links */
+}
+
+/* Link styling */
+.navbar a {
+  text-decoration: none;
+  color: #12375A;          /* executive navy */
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+/* Prevent purple visited color */
+.navbar a:visited {
+  color: #12375A;
+}
+
+/* Hover effect */
+.navbar a:hover {
+  color: #f0b429;          /* executive gold */
+}
